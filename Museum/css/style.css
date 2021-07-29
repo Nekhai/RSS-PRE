@@ -133,6 +133,8 @@ footer {
 .logo:hover {
   -webkit-filter: brightness(60%);
           filter: brightness(60%);
+  -webkit-transition: 200ms;
+  transition: 200ms;
 }
 
 .logo__img {
@@ -176,5 +178,7 @@ footer {
 
 .menu__item > a:hover {
   color: #9d8665;
+  -webkit-transition: 200ms;
+  transition: 200ms;
 }
 /*# sourceMappingURL=style.css.map */

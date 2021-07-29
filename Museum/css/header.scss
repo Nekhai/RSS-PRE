@@ -11,6 +11,7 @@
   align-items: center;
   &:hover {
     filter: brightness(60%);
+    transition: 200ms;
   }
   &__img {
     width: 50px;
@@ -43,6 +44,7 @@
       color: #ffffff;
       &:hover {
         color: #9d8665;
+        transition: 200ms;
       }
     }
   }
