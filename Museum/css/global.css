@@ -107,4 +107,23 @@ footer {
   max-width: 1440px;
   width: calc(100% - 40px);
 }
+
+.section-title {
+  font-family: "Forum", cursive;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.section-title:hover {
+  color: #9d8665;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.dark-section-title {
+  color: #000000;
+}
 /*# sourceMappingURL=global.css.map */
