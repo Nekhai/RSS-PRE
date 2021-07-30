@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 76px 0 0 0;
+    padding: 74px 0 0 0;
   }
 }
 .logo {
@@ -20,6 +20,7 @@
     background: url(../assets/svg/Vector.svg) center no-repeat;
   }
   &__text {
+    font-family: "Forum", cursive;
     font-size: 28px;
     line-height: 50px;
     letter-spacing: 5px;
@@ -33,14 +34,14 @@
     flex: 1;
     justify-content: space-between;
     align-items: center;
-    max-width: 720px;
+    max-width: 796px;
   }
   &__item {
     & > a {
       font-weight: 100;
       line-height: 50px;
       letter-spacing: 2px;
-      padding: 0 0 0 38px;
+      padding: 0 0 0 76px;
       color: #ffffff;
       &:hover {
         color: #9d8665;

@@ -1,7 +1,6 @@
 .welcome {
-  background: url(../assets/img/background.jpg) 100% 100% no-repeat, #000000;
-  &__container {
-  }
+  background: url(../assets/img/background.jpg) calc(50% + 352px) 100% no-repeat,
+    #000000;
   &__content {
     padding: 115px 0 170px 0;
   }

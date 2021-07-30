@@ -1,5 +1,5 @@
 .welcome {
-  background: url(../assets/img/background.jpg) 100% 100% no-repeat, #000000;
+  background: url(../assets/img/background.jpg) calc(50% + 352px) 100% no-repeat, #000000;
 }
 
 .welcome__content {
