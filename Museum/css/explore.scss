@@ -1,0 +1,25 @@
+.explore {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+  }
+  &__text {
+    padding: 103px 2px 0 0;
+    & p {
+      padding: 0 0 25px 0;
+      font-weight: 300;
+      font-size: 22px;
+      line-height: 38px;
+      color: #ffffff;
+      & span {
+        color: #caaa7d;
+      }
+    }
+  }
+  &__img {
+    width: 720px;
+    height: 700px;
+    margin: 12px 0 0 0;
+  }
+}
