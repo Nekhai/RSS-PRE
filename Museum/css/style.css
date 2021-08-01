@@ -516,7 +516,7 @@ footer {
 }
 
 .type__text {
-  padding: 0 0 50px 23px;
+  padding: 23px;
 }
 
 .amount__title {
@@ -540,5 +540,36 @@ footer {
   line-height: 33px;
   letter-spacing: 1.65px;
   color: #ffffff;
+}
+
+.contacts__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 103px 0 0 0;
+}
+
+.contacts__address {
+  padding: 11px 0 0 0;
+}
+
+.contacts__title {
+  padding: 0 0 36px 0;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.contacts__text {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.contacts__text p {
+  padding: 0 0 20px 0;
 }
 /*# sourceMappingURL=style.css.map */
