@@ -1,0 +1,120 @@
+.video__container {
+  padding: 15px 0 0 0;
+}
+
+.video__player {
+  position: relative;
+  width: 1440px;
+  height: 629px;
+}
+
+.video__start {
+  position: absolute;
+  left: calc(50% - 110px);
+  top: calc(50% - 110px);
+  width: 220px;
+  height: 220px;
+  border: 10px solid #ffffff;
+  border-radius: 50%;
+  background: none;
+}
+
+.video__start::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 60px);
+  left: calc(50% - 30px);
+  width: 0px;
+  height: 0px;
+  border: 60px solid transparent;
+  border-left: 90px solid #ffffff;
+}
+
+.video__control {
+  height: 85px;
+  background: #000000;
+}
+
+.video__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 0 0 0;
+}
+
+.video__text {
+  padding: 10px 0 0 0;
+  width: 50%;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+}
+
+.control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 41px 0;
+}
+
+.control__btn-play {
+  padding: 0 0 0 4px;
+}
+
+.control__progress {
+  background: -webkit-gradient(linear, left top, right top, from(#82cfd0), color-stop(40%, #82cfd0), color-stop(40%, #fff), to(#fff));
+  background: linear-gradient(to right, #82cfd0 0%, #82cfd0 40%, #fff 40%, #fff 100%);
+  border: solid 2px #82cfd0;
+  border-radius: 8px;
+  height: 7px;
+  width: 820px;
+  outline: none;
+  -webkit-transition: background 450ms ease-in;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+
+.control__progress::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  cursor: ew-resize;
+  background: #434343;
+}
+
+.control__volume {
+  background: -webkit-gradient(linear, left top, right top, from(#82cfd0), color-stop(40%, #82cfd0), color-stop(40%, #fff), to(#fff));
+  background: linear-gradient(to right, #82cfd0 0%, #82cfd0 40%, #fff 40%, #fff 100%);
+  border: solid 2px #82cfd0;
+  border-radius: 8px;
+  height: 7px;
+  width: 155px;
+  outline: none;
+  -webkit-transition: background 450ms ease-in;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+
+.control__volume::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  cursor: ew-resize;
+  background: #434343;
+}
+
+.btn-control {
+  background: none;
+}
+/*# sourceMappingURL=video.css.map */
