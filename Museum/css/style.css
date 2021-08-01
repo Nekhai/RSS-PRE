@@ -476,4 +476,69 @@ footer {
 .btn-control {
   background: none;
 }
+
+.tickets__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 109px 0 0 0;
+}
+
+.tickets__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.type {
+  padding: 0 0 0 60px;
+}
+
+.type__title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.type__input {
+  padding: 50px 215px 0 0;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.type__text {
+  padding: 0 0 50px 23px;
+}
+
+.amount__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.amount__subtitle {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.amount__total {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 1.65px;
+  color: #ffffff;
+}
 /*# sourceMappingURL=style.css.map */
