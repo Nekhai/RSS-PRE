@@ -92,6 +92,10 @@
   background: #434343;
 }
 
+.control__btn-mute {
+  margin: 0 -25px 0 0;
+}
+
 .control__volume {
   background: -webkit-gradient(linear, left top, right top, from(#82cfd0), color-stop(40%, #82cfd0), color-stop(40%, #fff), to(#fff));
   background: linear-gradient(to right, #82cfd0 0%, #82cfd0 40%, #fff 40%, #fff 100%);
@@ -114,7 +118,18 @@
   background: #434343;
 }
 
+.control__btn-screen {
+  padding: 0 0 0 10px;
+}
+
 .btn-control {
   background: none;
+}
+
+.btn-control:hover {
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+  -webkit-transition: 200ms;
+  transition: 200ms;
 }
 /*# sourceMappingURL=video.css.map */

@@ -86,6 +86,7 @@
     }
   }
   &__btn-mute {
+    margin: 0 -25px 0 0;
   }
   &__volume {
     background: linear-gradient(
@@ -112,8 +113,13 @@
     }
   }
   &__btn-screen {
+    padding: 0 0 0 10px;
   }
 }
 .btn-control {
   background: none;
+  &:hover {
+    filter: brightness(60%);
+    transition: 200ms;
+  }
 }
