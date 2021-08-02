@@ -1,25 +1,12 @@
 .tickets {
-  &__container {
-  }
-
   &__wrap {
     display: flex;
     justify-content: space-between;
     padding: 105px 0 0 0;
   }
-
-  &__img {
-  }
-
   &__content {
     display: flex;
     justify-content: space-between;
-  }
-
-  &__type {
-  }
-
-  &__amount {
   }
 }
 .type {
@@ -59,7 +46,6 @@
     line-height: 33px;
     color: #ffffff;
   }
-
   &__subtitle {
     padding: 0 0 14px 0;
     font-weight: 300;
@@ -67,7 +53,6 @@
     line-height: 26px;
     color: #ffffff;
   }
-
   &__block-basic {
     padding: 0 0 35px 25px;
   }
@@ -100,7 +85,6 @@
       transition: 200ms;
     }
   }
-
   &__btn-buy {
     width: 175px;
     height: 50px;
