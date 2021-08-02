@@ -1,0 +1,40 @@
+.footer {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__left-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logo {
+    align-self: flex-start;
+  }
+
+  &__social {
+    display: flex;
+  }
+}
+.menu-footer {
+  padding: 0 0 0 70px;
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 150px;
+  }
+
+  &__item {
+    padding: 0 77px;
+  }
+}
+.social {
+  align-self: flex-end;
+  &__links {
+    padding: 0 0 11px 24px;
+    & a:hover {
+      filter: brightness(60%);
+      transition: 200ms;
+    }
+  }
+}

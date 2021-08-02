@@ -202,11 +202,14 @@ footer {
   max-width: 796px;
 }
 
+.menu__item {
+  padding: 0 0 0 76px;
+}
+
 .menu__item > a {
   font-weight: 100;
   line-height: 50px;
   letter-spacing: 2px;
-  padding: 0 0 0 76px;
   color: #ffffff;
 }
 
@@ -484,7 +487,7 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 109px 0 0 0;
+  padding: 105px 0 0 0;
 }
 
 .tickets__content {
@@ -571,5 +574,71 @@ footer {
 
 .contacts__text p {
   padding: 0 0 20px 0;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__left-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__logo {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-footer {
+  padding: 0 0 0 70px;
+}
+
+.menu-footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 150px;
+}
+
+.menu-footer__item {
+  padding: 0 77px;
+}
+
+.social {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.social__links {
+  padding: 0 0 11px 24px;
+}
+
+.social__links a:hover {
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+  -webkit-transition: 200ms;
+  transition: 200ms;
 }
 /*# sourceMappingURL=style.css.map */
