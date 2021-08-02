@@ -57,7 +57,7 @@
   padding: 0 0 11px 24px;
 }
 
-.social__links a:hover {
+.social__links svg:hover {
   -webkit-filter: brightness(60%);
           filter: brightness(60%);
   -webkit-transition: 200ms;
