@@ -21,6 +21,10 @@ body {
   height: 100vh;
   width: 35%;
   position: absolute;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
 
 .slider__text {
@@ -49,10 +53,13 @@ body {
 
 .slider__right {
   position: absolute;
-  overflow: hidden;
   height: 100vh;
   width: 65%;
   left: 35%;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
 
 .slider__img {
@@ -89,6 +96,10 @@ body {
 
 .btn:hover {
   color: #222222;
+}
+
+.btn:focus {
+  outline: none;
 }
 
 .text-1 {
