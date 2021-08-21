@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+.slider {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  &__left {
+    height: 100vh;
+    width: 35%;
+    position: absolute;
+  }
+  &__text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    & h1 {
+      font-size: 40px;
+      margin: -30px 0 10px 0;
+    }
+  }
+  &__right {
+    position: absolute;
+    overflow: hidden;
+    height: 100vh;
+    width: 65%;
+    left: 35%;
+  }
+  &__img {
+    height: 100%;
+    width: 100%;
+  }
+
+  &__buttons {
+    // position: absolute;
+    // top: 50%;
+    // left: 35%;
+    // z-index: 100;
+  }
+  &__btn-up {
+    transform: translateY(-100%);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  &__btn-down {
+    transform: translateX(-100%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+}
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  z-index: 100;
+  background: #ffffff;
+  border: none;
+  color: #aaaaaa;
+  font-size: 16px;
+  padding: 15px;
+  cursor: pointer;
+  &:hover {
+    color: #222222;
+  }
+}
+.text-1 {
+  background: #de868e;
+}
+.text-2 {
+  background: #2c3d4e;
+}
+.text-3 {
+  background: #252e33;
+}
+.text-4 {
+  background: #2596be;
+}
+.img-1 {
+  background: url(./assets/img/pexels-jess-bailey-designs-2736613.jpg) 50% /
+    cover no-repeat;
+}
+.img-2 {
+  background: url(./assets/img/pexels-rok-romih-3848197.jpg) 50% / cover
+    no-repeat;
+}
+.img-3 {
+  background: url(./assets/img/pexels-maria-geller-2127023.jpg) 50% / cover
+    no-repeat;
+}
+.img-4 {
+  background: url(./assets/img/pexels-frank-cone-3250638.jpg) 50% / cover
+    no-repeat;
+}
