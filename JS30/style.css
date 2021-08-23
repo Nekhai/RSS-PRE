@@ -21,10 +21,6 @@ body {
   height: 100vh;
   width: 35%;
   position: absolute;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-  transition: -webkit-transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
 
 .slider__text {
@@ -56,10 +52,6 @@ body {
   height: 100vh;
   width: 65%;
   left: 35%;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-  transition: -webkit-transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
 
 .slider__img {
@@ -132,5 +124,12 @@ body {
 
 .img-4 {
   background: url(./assets/img/pexels-frank-cone-3250638.jpg) 50%/cover no-repeat;
+}
+
+.animation {
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
 /*# sourceMappingURL=style.css.map */
