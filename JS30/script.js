@@ -10,7 +10,7 @@ let isEnabled = true;
 
 sliderLeft.style.top = `-${(sliderLength + 1)* 100}vh`;
 btnDown.addEventListener('click', () => changSlide('down'));
-btnUp.addEventListener('click', () => changSlide('Up'));
+btnUp.addEventListener('click', () => changSlide('up'));
 
 const sliders = document.querySelectorAll('.slider__img');
 const firstSlide = sliders[0];
@@ -54,7 +54,7 @@ const changSlide = (direction) => {
   sliderLeft.classList.add('animation');
   
   if (isEnabled) {
-    if (direction === 'Up') {
+    if (direction === 'up') {
       curentIndex++;
     } else if (direction === 'down') {
     curentIndex--;
@@ -64,3 +64,11 @@ const changSlide = (direction) => {
   isEnabled = false;
   sliderRight.addEventListener('transitionend', removeAnimation);
 }
+
+window.addEventListener('wheel',(e) => {
+  if (e.deltaY > 0) {
+    changSlide('down');
+  } else if (e.deltaY < 0) {
+    changSlide('up');
+  }
+})
