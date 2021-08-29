@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>custom-video-player</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="video__container container">
+    <button class="video__start"></button>
+    <video class="video__player" src="assets/video/videoplayback.mp4"></video>
+    <div class="video__control control">
+      <button class="control__btn-play btn-control" style="background: url(./assets/svg/play.svg)"></button>
+      <input type="range" min="0" max="100" step="0.01" value="0" class="control__progress">
+      <button class="control__btn-mute btn-control" style="background: url(./assets/svg/volume.svg)"></button>
+      <input type="range" min="0" max="1" step="0.05" value="1" name="volume" class="control__volume">
+      <button class="control__btn-screen btn-control">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M31.48 31.6299H23.05V35.8599H35.7001V23.1499H31.48V31.6299Z" fill="#B3B3B3"/>
+          <path d="M4.22 23.1499H0V35.8599H12.65V31.6299H4.22V23.1499Z" fill="#B3B3B3"/>
+          <path d="M0 12.71H4.22V4.24H12.65V0H0V12.71Z" fill="#B3B3B3"/>
+          <path d="M23.05 0V4.24H31.48V12.71H35.7001V0H23.05Z" fill="#B3B3B3"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
