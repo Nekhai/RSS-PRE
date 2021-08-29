@@ -88,6 +88,14 @@ function mouseStopped() {
   control.classList.remove('move');
 }
 
+function leaveMouse() {
+  control.classList.remove('over');
+}
+
+function overMouse() {
+  control.classList.add('over');
+}
+
 function transitionControl() {
   control.classList.add('move');
   let timer;
@@ -160,6 +168,8 @@ volume.addEventListener('change', changeVolume);
 progress.addEventListener('click', changeProgress);
 video.addEventListener('timeupdate', videoProgress);
 video.addEventListener('mousemove', transitionControl);
+control.addEventListener('mouseover', overMouse);
+control.addEventListener('mouseleave', leaveMouse);
 btnMute.addEventListener('click', muteVolume);
 btnScreen.addEventListener('click', fullScreen);
 btnStart.addEventListener('click', playVideo);

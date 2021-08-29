@@ -186,7 +186,8 @@ a:hover {
   transition: 200ms;
 }
 
-.move {
+.move,
+.over {
   bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */
