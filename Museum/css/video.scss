@@ -1,0 +1,125 @@
+.video {
+  &__container {
+    padding: 15px 0 0 0;
+  }
+  &__player {
+    position: relative;
+    width: 1440px;
+    height: 629px;
+  }
+  &__display {
+  }
+  &__start {
+    position: absolute;
+    left: calc(50% - 110px);
+    top: calc(50% - 110px);
+    width: 220px;
+    height: 220px;
+    border: 10px solid #ffffff;
+    border-radius: 50%;
+    background: none;
+    &::after {
+      content: "";
+      position: absolute;
+      top: calc(50% - 60px);
+      left: calc(50% - 30px);
+      width: 0px;
+      height: 0px;
+      border: 60px solid transparent;
+      border-left: 90px solid #ffffff;
+    }
+  }
+  &__control {
+    height: 85px;
+    background: #000000;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 0 0;
+  }
+  &__text {
+    padding: 10px 0 0 0;
+    width: 50%;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+  }
+}
+.control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 41px 0;
+  &__btn-prew {
+  }
+
+  &__btn-play {
+    padding: 0 0 0 4px;
+  }
+
+  &__btn-next {
+  }
+
+  &__progress {
+    background: linear-gradient(
+      to right,
+      #82cfd0 0%,
+      #82cfd0 40%,
+      #fff 40%,
+      #fff 100%
+    );
+    border: solid 2px #82cfd0;
+    border-radius: 8px;
+    height: 7px;
+    width: 820px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+    &::-webkit-slider-thumb {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      -webkit-appearance: none;
+      cursor: ew-resize;
+      background: #434343;
+    }
+  }
+  &__btn-mute {
+    margin: 0 -25px 0 0;
+  }
+  &__volume {
+    background: linear-gradient(
+      to right,
+      #82cfd0 0%,
+      #82cfd0 40%,
+      #fff 40%,
+      #fff 100%
+    );
+    border: solid 2px #82cfd0;
+    border-radius: 8px;
+    height: 7px;
+    width: 155px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+    &::-webkit-slider-thumb {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      -webkit-appearance: none;
+      cursor: ew-resize;
+      background: #434343;
+    }
+  }
+  &__btn-screen {
+    padding: 0 0 0 10px;
+  }
+}
+.btn-control {
+  background: none;
+  &:hover {
+    filter: brightness(60%);
+    transition: 200ms;
+  }
+}

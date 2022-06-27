@@ -1,0 +1,110 @@
+.tickets {
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 105px 0 0 0;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.type {
+  &__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+  }
+  &__input {
+    padding: 0 215px 0 0;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+  &__radio-btn {
+    padding: 50px 0 0 0;
+    & input {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  &__text {
+    padding: 23px;
+  }
+}
+.amount {
+  &__title {
+    padding: 0 0 11px 0;
+    text-align: end;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #ffffff;
+  }
+  &__subtitle {
+    padding: 0 0 14px 0;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+  &__block-basic {
+    padding: 0 0 35px 25px;
+  }
+  &__number {
+    width: 150px;
+    height: 50px;
+    border: solid 3px #ffffff;
+    padding: 4px 0 0 10px;
+  }
+  &__block-senior {
+    padding: 0 0 0 25px;
+  }
+  &__total {
+    padding: 50px 0;
+    text-align: end;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 1.65px;
+    color: #ffffff;
+  }
+  &__btn {
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    background: none;
+    color: #ffffff;
+    &:hover {
+      filter: brightness(60%);
+      transition: 200ms;
+    }
+  }
+  &__btn-buy {
+    width: 175px;
+    height: 50px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2px;
+    &:hover {
+      background: #9d8665;
+      transition: 200ms;
+    }
+  }
+}
+.number {
+  all: unset;
+  padding: 10px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}

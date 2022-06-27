@@ -1,0 +1,36 @@
+.welcome {
+  background: url(../assets/img/background.jpg) calc(50% + 352px) 100% no-repeat,
+    #000000;
+  &__content {
+    padding: 115px 0 170px 0;
+  }
+  &__text {
+    padding: 26px 0 76px 0;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 2px;
+    color: #ffffff;
+  }
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 75px;
+  background: #710707;
+  border-radius: 10px;
+  &:hover {
+    background: #9d8665;
+    transition: 200ms;
+  }
+  & > a {
+    padding: 25px 64px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #ffffff;
+  }
+}
