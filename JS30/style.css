@@ -1,0 +1,135 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.slider__left {
+  height: 100vh;
+  width: 35%;
+  position: absolute;
+}
+
+.slider__text {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+}
+
+.slider__text h1 {
+  font-size: 40px;
+  margin: -30px 0 10px 0;
+}
+
+.slider__right {
+  position: absolute;
+  height: 100vh;
+  width: 65%;
+  left: 35%;
+}
+
+.slider__img {
+  height: 100%;
+  width: 100%;
+}
+
+.slider__btn-up {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.slider__btn-down {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  z-index: 100;
+  background: #ffffff;
+  border: none;
+  color: #aaaaaa;
+  font-size: 16px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #222222;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.text-1 {
+  background: #de868e;
+}
+
+.text-2 {
+  background: #2c3d4e;
+}
+
+.text-3 {
+  background: #252e33;
+}
+
+.text-4 {
+  background: #2596be;
+}
+
+.img-1 {
+  background: url(./assets/img/pexels-jess-bailey-designs-2736613.jpg) 50%/cover no-repeat;
+}
+
+.img-2 {
+  background: url(./assets/img/pexels-rok-romih-3848197.jpg) 50%/cover no-repeat;
+}
+
+.img-3 {
+  background: url(./assets/img/pexels-maria-geller-2127023.jpg) 50%/cover no-repeat;
+}
+
+.img-4 {
+  background: url(./assets/img/pexels-frank-cone-3250638.jpg) 50%/cover no-repeat;
+}
+
+.animation {
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */
